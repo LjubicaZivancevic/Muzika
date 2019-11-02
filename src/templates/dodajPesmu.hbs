@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Dodaj pesmu</title>
+   
+</head>
+<body>
+
+<nav>
+	<ul>
+	 <li><a href="/home">Sve pesme</a></li>
+     <li><a href="/songs/form/add">Dodaj pesmu</a></li>
+     <li><a href="/songs/change">Izmeni podatke</a></li>
+	</ul>
+		<form id="pretraga">
+
+    	<input id="tekstPretrage" placeholder="Pretraga po nazivu pesme">
+    	<input type="button" value="Pretrazi" onclick="pretrazi()" id="dugmePretraga">
+    </form>
+    </nav> 
+  <br><br>
+    <h3 id="naslovH3">Dodaj pesmu</h3>
+    <form action="/songs/add" method="GET" id="dodajPesmu">
+    	
+    	<input type="text" name="naziv" placeholder="Unesite naziv pesme"><br>
+   
+    	<input type="text" name="izvodjac" placeholder="Unesite izvodjaca pesme"><br>
+    	
+    	<input type="text" name="album" placeholder="Unesite album "><br>
+    
+    	<input type="text" name="trajanje" placeholder="Unesite trajanje pesme u sekundama"><br>
+    	<button type="submit">UNESI PESMU</button>
+    </form>
+    
+    <div id="content"></div>
+    
+      <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script>
+      
+   let nazivPesme= document.querySelector("#nazivPesme");
+   let content= document.querySelector("#content");
+   function pretrazi(){
+ 
+     		let podaci={
+     			"nazivPesme":nazivPesme.value	
+     		}
+     		$.ajax(
+     			{
+     				url:"/api/search",
+     				method:"POST",
+     				data:podaci,
+     				success:function(response){
+     					let pesme=JSON.parse(response);
+     					content.innerHTML=""
+     					for(let pesma of pesme){
+     						content.innerHTML+=`
+     			<div class=" card">
+       		
+       		<div class="header">
+       		<h3>${pesma.ime}</h3>
+       		<hr>
+       		</div>
+       		<h4>--${pesma.izvodjac}--</h3>
+       		<p>Album: ${pesma.album}</p>
+       		
+       		</div>
+     						`;
+     					}
+     				}
+     			});
+     	}
+    </script>
+</body>
+</html

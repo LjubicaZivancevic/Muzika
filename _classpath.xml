@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/antlr4-runtime-4.5.1-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/handlebars-4.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/handlebars-guava-cache-4.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/jetty-client-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/jetty-http-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/jetty-io-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/jetty-security-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/jetty-server-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/jetty-servlet-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/jetty-util-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/jetty-webapp-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/jetty-xml-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/rhino-1.7R4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/slf4j-simple-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/spark-core-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/spark-template-handlebars-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/websocket-api-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/websocket-client-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/websocket-common-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/websocket-server-9.4.12.v20180830.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/sparklib/websocket-servlet-9.4.12.v20180830.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

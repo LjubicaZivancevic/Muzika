@@ -1,0 +1,108 @@
+body{
+	margin: 0px;
+}
+.gradient{
+	 background-image: linear-gradient(to right, #4F0A6D,violet, #4F0A6D);
+}
+nav{
+    width: 100%;
+    height: 50px;
+	text-align: center;
+	background-color: black;'
+    
+}
+nav ul{
+    margin: 0px;
+
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    padding: 10px;
+  	font-weight: bold;
+  	font-variant: small-caps;
+   
+
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 20px;
+ }
+ nav ul li a:hover{
+   
+    color:  #C5B358;
+  
+    
+ }
+ #pretraga{
+ 	float: right;
+ 	padding: 15px;
+ 	color: white;
+ 	
+ }
+#tekstPretrage{
+	width: 250px;
+	border-radius: 5px;
+}
+#dugmePretraga{
+	border-radius: 1px;
+	background-color:#C5B358;
+	color: white;
+}
+
+.card{
+	border: 2px solid  black;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	width: 50%;
+	margin:auto;
+	margin-top: 25px;
+	text-align:center;
+	color:black;
+	
+}
+.header{
+	 background-image: linear-gradient(#C5B358, #CFB53B);
+
+
+}
+.header h3{
+	font-size: 25px;
+	font-variant: small-caps;
+	color: white;
+	
+}
+#naslovH3{
+	text-align: center;
+	font-size: 25px;
+	font-variant: small-caps;
+	
+}
+
+#dodajPesmu{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+#dodajPesmu input{
+		width: 50%;
+		padding: 10px;margin: auto;
+		margin-top: 10px;
+		
+}
+#dodajPesmu button{
+		width: 55%;
+		padding: 10px;
+		margin: auto;
+		margin-top: 10px;
+		background-color:#C5B358;
+		color: white;
+		
+		
+}
+#radio{
+	color: #ffff00:
+}
